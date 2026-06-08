@@ -1,0 +1,11 @@
+{
+  "short_name": "Langlands Alumni",
+  "name": "Langlands School & College Alumni Registry",
+  "icons": [
+    { "src": "favicon.ico", "sizes": "64x64 32x32 24x24 16x16", "type": "image/x-icon" }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0D1B2A",
+  "background_color": "#FAF7EF"
+}
