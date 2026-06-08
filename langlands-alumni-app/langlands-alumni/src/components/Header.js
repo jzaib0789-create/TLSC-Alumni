@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 
 export default function Header({ subtitle }) {
   return (
@@ -8,8 +8,8 @@ export default function Header({ subtitle }) {
         backgroundImage:'repeating-linear-gradient(45deg,transparent,transparent 20px,rgba(184,134,11,0.04) 20px,rgba(184,134,11,0.04) 21px)'
       }}/>
       <div style={{position:'relative',display:'flex',alignItems:'center',gap:16,padding:'22px 28px',maxWidth:860,margin:'0 auto'}}>
-        <div style={{width:58,height:58,background:'var(--gold)',borderRadius:'50%',display:'flex',alignItems:'center',justifyContent:'center',flexShrink:0,border:'3px solid rgba(255,255,255,0.12)'}}>
-          <i className="ti ti-school" style={{fontSize:26,color:'var(--navy)'}} aria-hidden="true"/>
+        <div style={{width:62,height:62,borderRadius:'50%',overflow:'hidden',flexShrink:0,border:'2px solid var(--gold)',background:'#000',display:'flex',alignItems:'center',justifyContent:'center'}}>
+          <img src="/logo.jpg" alt="Langlands School Logo" style={{width:'100%',height:'100%',objectFit:'cover'}}/>
         </div>
         <div>
           <h1 style={{fontFamily:'Playfair Display,serif',fontSize:20,color:'var(--gold)',letterSpacing:0.5}}>
